@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  font-size: 7rem;
+  text-align: center;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.days {
+  font-size: 10rem;
+}
+
+.addDay {
+  width: 30vw;
+  height: 10vh;
+  background-color: green;
+  border-radius: 15px;
+  font-size: 3rem;
+}
+.reset {
+  width: 30vw;
+  height: 10vh;
+  background-color: red;
+  border-radius: 15px;
+  font-size: 3rem;
+}
+
+.result {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.good-gif {
+  display: none;
+}
+
+.bad-gif {
+  display: none;
+}
